@@ -3,10 +3,10 @@
 void main()
 {
 	vector<int> testData;
+	testData.push_back(1);
 	testData.push_back(9);
 	testData.push_back(9);
-	testData.push_back(9);
-	testData.push_back(9);
+	testData.push_back(1);
 	int Size = testData.size();
 
 	cout << "Input: ";
