@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿生成启动时间为 2015/9/22 11:20:02。
      1>项目“E:\Herbert Project\GitHub Project\leetcode\Valid Parentheses\Valid Parentheses\Valid Parentheses.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
@@ -12,3 +13,15 @@
 生成成功。
 
 已用时间 00:00:00.48
+=======
+﻿生成启动时间为 2015/9/22 13:03:07。
+     1>项目“C:\GitHub Projects\leetcode\Valid Parentheses\Valid Parentheses\Valid Parentheses.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1197,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+     1>Link:
+         Valid Parentheses.vcxproj -> C:\GitHub Projects\leetcode\Valid Parentheses\Debug\Valid Parentheses.exe
+     1>已完成生成项目“C:\GitHub Projects\leetcode\Valid Parentheses\Valid Parentheses\Valid Parentheses.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.11
+>>>>>>> origin/master
