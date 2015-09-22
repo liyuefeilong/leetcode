@@ -42,3 +42,4 @@ int getRomanValue(char c) {
 		return result;
 	}
 };
+
