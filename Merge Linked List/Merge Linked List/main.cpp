@@ -6,10 +6,10 @@ int main()
 {
 	ListNode* p1 = new ListNode(1);
 	p1->next = new ListNode(2);
-	p1->next->next = new ListNode(3);
-	ListNode* p2 = new ListNode(6);
-	p2->next = new ListNode(5);
-	p2->next->next = new ListNode(4);
+	//p1->next->next = new ListNode(3);
+	ListNode* p2 = new ListNode(5);
+	p2->next = new ListNode(4);
+	p2->next->next = new ListNode(3);
 
 	Solution s;
 

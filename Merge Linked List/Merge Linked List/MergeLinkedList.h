@@ -18,14 +18,14 @@ public:
 		bool flag = true;
 		while (temp1 != NULL && temp2 != NULL)
 		{
-			if (flag)
+			if (flag && temp2 != NULL)
 			{
 				temp1 = p1->next;
 				p1->next = temp2;
 				p1 = p1->next;
 				flag = false;
 			}
-			if (!flag)
+			if (!flag && temp1 != NULL)
 			{
 				temp2 = p1->next;
 				p1->next = temp1;
