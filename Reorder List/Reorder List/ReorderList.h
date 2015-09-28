@@ -11,9 +11,9 @@ struct ListNode
 class Solution
 {
 public:
-	void reorderList(ListNode *head) {
+	ListNode * reorderList(ListNode *head) {
 		if (head == NULL || head->next == NULL)
-			return;
+			return head;
 		ListNode *slow = head;
 		ListNode *fast = head;
 		ListNode *cut = head;
@@ -24,19 +24,56 @@ public:
 			fast = fast->next->next;
 		}
 		cut->next = NULL;
+
+		slow = reverseList(slow);
+		ListNode *result = mergeList(head, slow);
+		return result;
 	}
 
-	void reverseList(ListNode *head)
+	ListNode* reverseList(ListNode *head)
 	{
 		if (head == NULL || head->next == NULL)
-			return;
+			return head;
 		ListNode *prev = head;
-		ListNode *curr = head;
-		ListNode *temp = head->next;
+		ListNode *curr = head->next;
+		ListNode *temp = curr;
+		prev->next = NULL;
+
+		while (curr)
+		{
+			temp = curr->next;
+			curr->next = prev;
+			prev = curr;
+			curr = temp;	
+		}
+		return prev;
 	}
 
-	void mergeList(ListNode *head1, ListNode *head2)
+	
+	ListNode* mergeList(ListNode *head1, ListNode *head2)
 	{
-		;
+		ListNode* temp1 = head1;
+		ListNode* temp2 = head2;
+		ListNode* pMerge = head1;
+		bool flag = true;
+
+		while (temp1 != NULL && temp2 != NULL)
+		{
+			if (flag  && temp2 != NULL)
+			{
+				temp1 = head1->next;
+				head1->next = temp2;
+				head1 = head1->next;
+				flag = false;
+			}
+			if (!flag  && temp1 != NULL)
+			{
+				temp2 = head1->next;
+				head1->next = temp1;
+				head1 = head1->next;
+				flag = true;
+			}
+		}
+		return pMerge;
 	}
 };
