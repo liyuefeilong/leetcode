@@ -30,7 +30,7 @@ public:
 		return result;
 	}
 
-	ListNode* reverseList(ListNode *head)
+	ListNode* reverseList(ListNode *head) // ·­×ªÁ´±í
 	{
 		if (head == NULL || head->next == NULL)
 			return head;
