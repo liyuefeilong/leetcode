@@ -2,6 +2,7 @@
 
 int main()
 {
+<<<<<<< HEAD
 	while (true)
 	{
 		int num;
@@ -19,4 +20,7 @@ int main()
 
 	system("pause");
 	return 0;
+=======
+	;
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
 }

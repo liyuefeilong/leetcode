@@ -15,13 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+=======
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
     <ClInclude Include="HappyNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
 </Project>

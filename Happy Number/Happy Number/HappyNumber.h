@@ -1,11 +1,15 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <map>
+=======
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
 
 using namespace std;
 
 class Solution
 {
 public:
+<<<<<<< HEAD
 	bool isHappy(int n)
 	{
 		if (n < 0) return false;
@@ -32,4 +36,7 @@ public:
 			}
 		}
 	}
+=======
+	
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
 };
