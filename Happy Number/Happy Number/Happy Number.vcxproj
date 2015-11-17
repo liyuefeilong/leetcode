@@ -11,7 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
+    <ProjectGuid>{51C37452-F22D-46C2-A0E2-1BDEE6FC0570}</ProjectGuid>
+=======
     <ProjectGuid>{82A0D26D-4CC2-4CBC-BF93-1A81C1E4AECD}</ProjectGuid>
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>HappyNumber</RootNamespace>
   </PropertyGroup>
@@ -52,7 +56,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
+=======
       <SDLCheck>true</SDLCheck>
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -68,7 +75,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
+=======
       <SDLCheck>true</SDLCheck>
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,10 +88,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HappyNumber.h" />
+=======
     <ClInclude Include="HappyNumber.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+>>>>>>> e7bc77ac672264a98865e9416d34fc3676481b78
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
