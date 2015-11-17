@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decode Ways", "Decode Ways\Decode Ways.vcxproj", "{6A83A01A-FC1E-4947-A20E-32D350A15F9B}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decode Ways", "Decode Ways\Decode Ways.vcxproj", "{750E806D-70FE-4BD3-9567-4BB10F973FD4}"
+>>>>>>> origin/master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,17 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{6A83A01A-FC1E-4947-A20E-32D350A15F9B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{6A83A01A-FC1E-4947-A20E-32D350A15F9B}.Debug|Win32.Build.0 = Debug|Win32
 		{6A83A01A-FC1E-4947-A20E-32D350A15F9B}.Release|Win32.ActiveCfg = Release|Win32
 		{6A83A01A-FC1E-4947-A20E-32D350A15F9B}.Release|Win32.Build.0 = Release|Win32
+=======
+		{750E806D-70FE-4BD3-9567-4BB10F973FD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{750E806D-70FE-4BD3-9567-4BB10F973FD4}.Debug|Win32.Build.0 = Debug|Win32
+		{750E806D-70FE-4BD3-9567-4BB10F973FD4}.Release|Win32.ActiveCfg = Release|Win32
+		{750E806D-70FE-4BD3-9567-4BB10F973FD4}.Release|Win32.Build.0 = Release|Win32
+>>>>>>> origin/master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

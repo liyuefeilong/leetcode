@@ -11,7 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{6A83A01A-FC1E-4947-A20E-32D350A15F9B}</ProjectGuid>
+=======
+    <ProjectGuid>{750E806D-70FE-4BD3-9567-4BB10F973FD4}</ProjectGuid>
+>>>>>>> origin/master
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DecodeWays</RootNamespace>
   </PropertyGroup>
@@ -52,7 +56,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <SDLCheck>true</SDLCheck>
+=======
+>>>>>>> origin/master
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -68,7 +75,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <SDLCheck>true</SDLCheck>
+=======
+>>>>>>> origin/master
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
