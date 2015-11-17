@@ -11,7 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{58F7D689-5DD8-481E-8BCC-9DE6FC8E7D0D}</ProjectGuid>
+=======
+    <ProjectGuid>{6E112F50-9070-4AAD-8822-BCB87E0483CD}</ProjectGuid>
+>>>>>>> origin/master
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>EditDistance</RootNamespace>
   </PropertyGroup>
@@ -52,7 +56,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <SDLCheck>true</SDLCheck>
+=======
+>>>>>>> origin/master
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -68,7 +75,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <SDLCheck>true</SDLCheck>
+=======
+>>>>>>> origin/master
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,10 +88,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="EditDistance.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+=======
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditDistance.h" />
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

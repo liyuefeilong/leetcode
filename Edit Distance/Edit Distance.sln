@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Edit Distance", "Edit Distance\Edit Distance.vcxproj", "{58F7D689-5DD8-481E-8BCC-9DE6FC8E7D0D}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Edit Distance", "Edit Distance\Edit Distance.vcxproj", "{6E112F50-9070-4AAD-8822-BCB87E0483CD}"
+>>>>>>> origin/master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,17 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{58F7D689-5DD8-481E-8BCC-9DE6FC8E7D0D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{58F7D689-5DD8-481E-8BCC-9DE6FC8E7D0D}.Debug|Win32.Build.0 = Debug|Win32
 		{58F7D689-5DD8-481E-8BCC-9DE6FC8E7D0D}.Release|Win32.ActiveCfg = Release|Win32
 		{58F7D689-5DD8-481E-8BCC-9DE6FC8E7D0D}.Release|Win32.Build.0 = Release|Win32
+=======
+		{6E112F50-9070-4AAD-8822-BCB87E0483CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E112F50-9070-4AAD-8822-BCB87E0483CD}.Debug|Win32.Build.0 = Debug|Win32
+		{6E112F50-9070-4AAD-8822-BCB87E0483CD}.Release|Win32.ActiveCfg = Release|Win32
+		{6E112F50-9070-4AAD-8822-BCB87E0483CD}.Release|Win32.Build.0 = Release|Win32
+>>>>>>> origin/master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
