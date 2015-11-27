@@ -12,17 +12,17 @@ public:
 		vector<int> temp; // 用于存放临时组合
 		sort(candidates.begin(), candidates.end());
 		combinationDFS(candidates, temp, 0, target);
-		return result;
+		return resultult;
 	}
 
 private:
-	vector<vector<int> > result;
+	vector<vector<int> > resultult;
 
 	void combinationDFS(vector<int> &candidates, vector<int> &temp, size_t index, int target)
 	{
 		if (target == 0)
 		{
-			result.push_back(temp);
+			resultult.push_back(temp);
 			return;
 		}
 
