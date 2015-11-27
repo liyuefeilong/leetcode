@@ -1,5 +1,5 @@
 #include "NQueens.h"
-
+/*
 int main()
 {
 	int n;
@@ -20,6 +20,23 @@ int main()
 		}
 		cout << endl;
 	}
+
+	system("pause");
+	return 0;
+}
+*/
+
+int main()
+{
+	int n;
+	cout << "Please input the size of the chessboard (n * n): ";
+	cin >> n;
+
+	Solution s;
+
+	int result = s.totalNQueens(n);
+
+	cout << result << endl;
 
 	system("pause");
 	return 0;
