@@ -12,7 +12,7 @@ public:
 		vector<int> temp; // 用于存放临时组合
 		sort(candidates.begin(), candidates.end());
 		// 结果要求输出的组合不能重复，需要去除candidates中的重复元素
-		candidates.erase(unique(candidates.begin(), candidates.end()), candidates.end());
+		// candidates.erase(unique(candidates.begin(), candidates.end()), candidates.end());
 		combinationDFS(candidates, temp, 0, target);
 		return result;
 	}
@@ -22,7 +22,7 @@ private:
 
 	void combinationDFS(vector<int> &candidates, vector<int> &temp, size_t index, int target)
 	{
-		if (target == 0)
+		if (target == 0) // 得到满足目标的一组解
 		{
 			result.push_back(temp);
 			return;
