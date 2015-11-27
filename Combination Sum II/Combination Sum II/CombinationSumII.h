@@ -31,6 +31,9 @@ private:
 			int prev = -1;
 			for (size_t i = index; i < candidates.size(); ++i)
 			{
+				// 由于candidates中元素可能有重复，以下操作的意义是判断上轮循
+				// 环是否选择了candidates[i]，是则跳过选择下一个candidates元素
+				// 直到下标到达比prev大的元素，选择该元素进行下一轮递归
 				if (prev == candidates[i])
 					continue;
 
