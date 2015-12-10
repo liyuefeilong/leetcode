@@ -5,10 +5,10 @@
 
 using namespace std;
 
-class TriNode
+class TrieNode
 {
 public:
-	TriNode() // 构造函数
+	TrieNode() // 构造函数
 	{
 		for (int i = 0; i < 26; ++i)
 			next[i] = NULL;
@@ -24,7 +24,7 @@ public:
 		}
 
 		if (next[s[0] - 'a'] == NULL)
-			next[s[0] - 'a'] = new TriNode();
+			next[s[0] - 'a'] = new TrieNode();
 		next[s[0] - 'a']->insert(s.substr(1)); // 右移一位截取字符串s，继续递归插入
 	}
 
@@ -47,7 +47,7 @@ public:
 	}
 
 private:
-	TriNode *next[26];
+	TrieNode *next[26];
 	bool end;
 };
 
@@ -55,12 +55,12 @@ class Tri
 {
 public:
 	Tri(){
-		root = new TriNode();
+		root = new TrieNode();
 	}
 	
 	void insert(string s)
 	{
-		root->insert(s); // 调用TriNode类的方法
+		root->insert(s); // 调用TrieNode类的方法
 	}
 
 	bool search(string k)
@@ -74,7 +74,7 @@ public:
 	}
 
 private:
-	TriNode *root;
+	TrieNode *root;
 };
 
 class Solution
